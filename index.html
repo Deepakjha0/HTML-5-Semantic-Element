@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Website</title>
+    <style>    
+         @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Roboto+Condensed:wght@300&display=swap');
+        body{
+            background-color: black;
+        }
+        section{
+            width: 32%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        section:hover{
+            box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+        }
+        h1{
+            background-color: rgb(235, 130, 148);
+            height: 50px;
+            width: 400px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        h1:hover{
+            box-shadow: 5px 5px 5px pink, -5px -5px 5px pink;
+        }
+        .nav{
+            background-color: aqua;
+            width: 150px;
+            height: 150px;
+            margin-right: 10px;
+            text-align: center;
+            padding-top: 150px;
+        }
+        .nav:hover{
+            box-shadow: 5px 5px 5px aquamarine, -5px -5px 5px aquamarine;
+        }
+        .article1{
+            background-color: yellow;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            width: 230px;
+            height: 90px;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .article1:hover{
+            box-shadow: 5px 5px 5px rgb(234, 234, 132), -5px -5px 5px rgb(234, 234, 132);
+        }
+        .article2{
+            background-color: yellow;
+            margin-left: 10px;
+            width: 230px;
+            height: 90px;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .article2:hover{
+            box-shadow: 5px 5px 5px rgb(234, 234, 132), -5px -5px 5px rgb(234, 234, 132);
+        }
+        .foot{
+            background-color: lightpink;
+            width: 400px;
+            height: 50px;
+            text-align: center;
+            padding-top: 25px;
+        }
+        .foot:hover{
+            box-shadow: 5px 5px 5px pink, -5px -5px 5px pink;
+        }
+        .Itemflex{
+            display: flex;
+        }
+        h2{
+            color: white;
+            text-align: center;
+            font-family: 'Tilt Prism', cursive;
+        }
+    </style>
+</head>
+<body>
+    <h2>Structural Elements</h2>
+    <section>
+        <h1>Header</h1>
+        <div class="Itemflex">
+            <div>
+                <p class="nav">Nav</p>
+            </div>
+            <div class="article">
+                <p class="article1">Article</p>
+                <p class="article2">Article</p>
+            </div>
+        </div>
+        <p class="foot">Footer</p>
+    </section>
+</body>
+</html>
